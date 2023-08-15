@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.target=ProgramaJavaFX
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment2.params=primaryStage
+comment2.target=void\ start(javafx.stage.Stage)
+comment3.params=
+comment3.target=void\ cadastrarFuncionario()
+comment4.params=
+comment4.target=void\ exibirGrafico()
+comment5.params=
+comment5.target=void\ exibirFuncionarios()
+comment6.params=mensagem
+comment6.target=void\ mostrarMensagem(java.lang.String)
+comment7.params=mensagem
+comment7.target=void\ mostrarMensagemErro(java.lang.String)
+numComments=8

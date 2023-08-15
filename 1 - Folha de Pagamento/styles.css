@@ -1,0 +1,7 @@
+.custom-button {
+    -fx-background-color: black;
+    -fx-text-fill: white;
+    -fx-pref-width: 300px;
+    -fx-pref-height: 40px;
+    -fx-font-size: 14px;
+}
