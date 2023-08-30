@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=ContaEspecial
+comment1.params=cliente\ numconta\ saldo\ limite
+comment1.target=ContaEspecial(java.lang.String,\ int,\ float,\ float)
+comment2.params=
+comment2.target=int\ getNumconta()
+comment3.params=novosaldo
+comment3.target=void\ setSaldo(float)
+comment4.params=
+comment4.target=float\ GetLimite()
+comment5.params=
+comment5.target=float\ getSaldo()
+numComments=6

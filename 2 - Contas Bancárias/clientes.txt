@@ -1,0 +1,6 @@
+1,Geovanni,351,2400.0
+1,Leonardo,320,5000.0
+1,Sandro,17,25.0
+1,Fernando Marcelo,250,60.0
+1,Marcio Nunes,310,252.0
+1,Marcelo Costa,176,360.0

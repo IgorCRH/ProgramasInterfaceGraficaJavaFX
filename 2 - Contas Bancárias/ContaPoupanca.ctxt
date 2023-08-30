@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.target=ContaPoupanca
+comment1.params=cliente\ numconta\ saldo
+comment1.target=ContaPoupanca(java.lang.String,\ int,\ float)
+comment2.params=
+comment2.target=int\ getNumconta()
+comment3.params=novosaldo
+comment3.target=void\ setSaldo(float)
+comment4.params=
+comment4.target=float\ getSaldo()
+numComments=5

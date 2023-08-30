@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="265.0" prefWidth="600.0" style="-fx-background-color: #229ed0;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="NovoSaldoController">
+   <children>
+      <Text fill="WHITE" layoutX="111.0" layoutY="47.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Novo Saldo - Rendimento">
+         <font>
+            <Font name="System Bold" size="31.0" />
+         </font>
+      </Text>
+      <Line endX="431.0" layoutX="134.0" layoutY="54.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#fffffff9" />
+                  <Stop color="#fffcfc8e" offset="0.541335861278982" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <TextArea fx:id="resultadonovoSaldoField" editable="false" layoutX="154.0" layoutY="188.0" prefHeight="55.0" prefWidth="277.0">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </TextArea>
+      <Button fx:id="RendimentoButton" layoutX="271.0" layoutY="142.0" mnemonicParsing="false" text="Calcular" textFill="#229ed0" />
+      <Label layoutX="186.0" layoutY="66.0" text="Número da Conta" textFill="WHITE" />
+      <TextField fx:id="numcontaRendimentoField" layoutX="292.0" layoutY="62.0" />
+      <Line endX="431.0" layoutX="134.0" layoutY="132.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#fffffff9" />
+                  <Stop color="#fffcfc8e" offset="0.541335861278982" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+      <TextField fx:id="rendimentoField" layoutX="292.0" layoutY="97.0" />
+      <Label layoutX="216.0" layoutY="101.0" text="Rendimento" textFill="WHITE" />
+      <Line endX="431.0" layoutX="134.0" layoutY="175.0" startX="-100.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="#fffffff9" />
+                  <Stop color="#fffcfc8e" offset="0.541335861278982" />
+                  <Stop color="WHITE" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+      </Line>
+   </children>
+</AnchorPane>
